@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route path="/" element={<Home />} />{" "}
+          <Route path="/" element={<Home />} />
           {/* Home component for root path */}
           <Route path="/admin/dashboard" element={<Dashboard />} />
           <Route path="/admin/products" element={<Products />} />
