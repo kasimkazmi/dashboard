@@ -5,7 +5,6 @@ import Search from "../components/dashboard/Search";
 import Inventory from "../components/dashboard/Inventory";
 import RevenuChart from "../components/dashboard/RevenuChart";
 import { categories } from "../assets/intentory.json";
-import MaleFemaleChart from "../components/dashboard/MaleFemaleChart";
 import { DoughnutChart } from "../components/chart/Chart";
 import { BiMaleFemale } from "react-icons/bi";
 
